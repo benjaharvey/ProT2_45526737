@@ -90,10 +90,8 @@ border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
 margin-left: -10px; /* Desplazamiento a la izquierda de 10px */;
 }
 
-.testeo1 {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(0, 39, 36);
+
+
+h2 {
     text-align: center;
 }
-
