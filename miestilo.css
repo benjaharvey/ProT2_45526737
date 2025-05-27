@@ -48,3 +48,49 @@ h2 {
     text-align: center;
 }
 
+.navbar {
+    background-color: rgb(177, 234, 248);
+    padding: 10px;
+}
+
+.boton-inicio {
+  background-color: rgb(102, 204, 255); 
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.boton-inicio:hover {
+  background-color: rgb(0, 153, 187); 
+  color: white;
+}
+
+.boton-sobre-nosotros {
+  background-color: rgb(102, 204, 255); 
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.boton-sobre-nosotros:hover {
+  background-color: rgb(0, 153, 187); 
+  color: white;
+}
+
+.boton-servicios {
+  background-color: rgb(102, 204, 255); 
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.boton-servicios:hover {
+  background-color: rgb(0, 153, 187); 
+  color: white;
+}
