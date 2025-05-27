@@ -105,3 +105,26 @@ h2 {
 .boton-buscar:hover {
   background-color: rgb(0, 153, 187); 
 }
+
+.img-aeroclub1 {
+  width: 50%; /* Ajustá este valor como quieras */
+  height: auto; /* Mantiene la proporción */
+}
+
+.img-aeroclub2 {
+  width: 50%; /* Ajustá este valor como quieras */
+  height: auto; /* Mantiene la proporción */
+}
+
+.img-aeroclub3 {
+  width: 50%; /* Ajustá este valor como quieras */
+  height: auto; /* Mantiene la proporción */
+}
+
+.carousel-control-prev{
+left: 20%;
+}
+
+.carousel-control-next{
+  right: 20%;
+}
