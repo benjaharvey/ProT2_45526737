@@ -107,24 +107,32 @@ h2 {
 }
 
 .img-aeroclub1 {
-  width: 50%; /* Ajustá este valor como quieras */
+  width: 35%; /* Ajustá este valor como quieras */
   height: auto; /* Mantiene la proporción */
 }
 
 .img-aeroclub2 {
-  width: 50%; /* Ajustá este valor como quieras */
+  width: 35%; /* Ajustá este valor como quieras */
   height: auto; /* Mantiene la proporción */
 }
 
 .img-aeroclub3 {
-  width: 50%; /* Ajustá este valor como quieras */
+  width: 35%; /* Ajustá este valor como quieras */
   height: auto; /* Mantiene la proporción */
 }
 
 .carousel-control-prev{
-left: 20%;
+left: 27%;
 }
 
 .carousel-control-next{
-  right: 20%;
+  right: 27%;
+}
+
+.subtitulo-1 {
+    text-align: center;
+    font-size: 27.5px;
+    font-weight:lighter;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
