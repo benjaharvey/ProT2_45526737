@@ -29,20 +29,14 @@ padding: 20px;
 }
 
 footer {
-background-color: rgb(5, 138, 172); 
+background-image: linear-gradient(to bottom,  rgb(9, 188, 233) , rgb(2, 104, 128));
 color: #fff;
-padding: 110px; 
+padding: 50px; 
 }
 
 .footer-content {
 max-width: 800px; 
 margin: 0 auto; 
-}
-
-.texto-footer {
-    text-align: center;
-    font-size: large;
-    margin-top: 10em;
 }
 
 h2 {
@@ -108,18 +102,18 @@ h2 {
 }
 
 .img-aeroclub1 {
-  width: 35%; /* Ajustá este valor como quieras */
-  height: auto; /* Mantiene la proporción */
+  width: 35%; 
+  height: auto; 
 }
 
 .img-aeroclub2 {
-  width: 35%; /* Ajustá este valor como quieras */
-  height: auto; /* Mantiene la proporción */
+  width: 35%; 
+  height: auto; 
 }
 
 .img-aeroclub3 {
-  width: 35%; /* Ajustá este valor como quieras */
-  height: auto; /* Mantiene la proporción */
+  width: 35%; 
+  height: auto; 
 }
 
 .carousel-control-prev{
@@ -140,4 +134,15 @@ left: 27%;
 
 h3 {
   margin-bottom: 2em;
+}
+
+.contenido-footer {
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+.derechos-autor {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 6em;
 }
