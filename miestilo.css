@@ -146,3 +146,27 @@ h3 {
   text-align: center;
   margin-top: 6em;
 }
+
+.boton-inicio-sesion {
+  background-color: #0e92d4; 
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.boton-registro {
+  background-color: #0e92d4; 
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-inicio-sesion:hover{
+  background-color: rgb(29, 211, 252); 
+}
+
+.boton-registro:hover {
+  background-color: rgb(29, 211, 252); 
+}
