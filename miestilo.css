@@ -170,3 +170,28 @@ h3 {
 .boton-registro:hover {
   background-color: rgb(29, 211, 252); 
 }
+
+.subtitulo-registro {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: lighter;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.registro-aeroclub {
+  margin-bottom: 4em;
+}
+
+.boton-registrar{
+  background-color: #0e92d4;
+  border-radius: 0.3em;
+}
+
+.boton-registrar:hover {
+  background-color: rgb(29, 211, 252); 
+}
+
+.btn-danger:hover {
+  background-color: rgb(248, 125, 125); 
+}

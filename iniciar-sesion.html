@@ -6,10 +6,11 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="miestilo.css">
 
-    <title>Document</title>
+    <title>Inicio de sesión</title>
 </head>
 <body>
-    <header>
+
+<header>
        <!-- Barra de navegación hecha con Bootstrap-->
 
   <nav class="navbar navbar-expand-lg">
@@ -75,7 +76,35 @@
 </header>
 
 <main>
-    <h1>hola mundo</h1>
+    <h1>Inicio de sesión</h1>
+    <p class="subtitulo-registro">¡Bienvenido devuelta! Estamos encantados de volver a verte</p>
+
+        <div class="container mt-5 registro-aeroclub">
+  <div class="card">
+    <div class="card-header text-center">
+      <h4>Iniciar sesión</h4>
+    </div>
+    <div class="card-body rounded-4 shadow">
+
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail/hotmail/outlook.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="password" placeholder="Contraseña (por lo menos 5 caracteres)">
+        </div>
+
+        <button type="submit" class="btn me-2 boton-registrar">Registrar</button>
+        <button type="button" class="btn btn-danger">Cancelar</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
 </main>
 
 <footer>

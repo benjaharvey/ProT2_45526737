@@ -6,7 +6,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="miestilo.css">
 
-    <title>Registrarse</title>
+    <title>Registro</title>
 </head>
 <body>
 
@@ -76,7 +76,48 @@
 </header>
 
 <main>
-    <h1>hello world</h1>
+    <h1>¡Bienvenido al Aeroclub!</h1>
+    <p class="subtitulo-registro">Registrate en nuestra pagina web para estar al tanto de las ultimas actualizaciones sobre nuestro aeroclub, asi tambien como para acceder a beneficios exclusivos para miembros de la pagina</p>
+
+    <div class="container mt-5 registro-aeroclub">
+  <div class="card">
+    <div class="card-header text-center">
+      <h4>Registrar usuario</h4>
+    </div>
+    <div class="card-body rounded-4 shadow">
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+        </div>
+
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail/hotmail/outlook.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="usuario" class="form-label">Usuario</label>
+          <input type="text" class="form-control" id="usuario" placeholder="Usuario">
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="password" placeholder="Contraseña (por lo menos 5 caracteres)">
+        </div>
+
+        <button type="submit" class="btn me-2 boton-registrar">Registrar</button>
+        <button type="button" class="btn btn-danger">Cancelar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
 </main>
 
 <footer>
